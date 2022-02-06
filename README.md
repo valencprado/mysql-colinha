@@ -1,5 +1,6 @@
 # BANCO DE DADOS - Uma colinha necessária.📝
 Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, criada nos anos 1970 pela IBM e utilizada em várias empresas de todo o planeta.
+**Focado em MySQL**
 > A fonte desses conteúdos são as aulas de banco de dados I e II do curso técnico de Desenvolvimento de Sistemas da Etec Profº Basilides de Godoy.
 
 ## Recursos utilizados:
