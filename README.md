@@ -2,7 +2,7 @@
 Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, criada nos anos 1970 pela IBM e utilizada em várias empresas de todo o planeta.
 
 **Focado em MySQL.**
-> A fonte desses conteúdos são as aulas de banco de dados II do curso técnico de Desenvolvimento de Sistemas da Etec Profº Basilides de Godoy.
+> A fonte desses conteúdos são as aulas de banco de dados do curso técnico de Desenvolvimento de Sistemas da Etec Profº Basilides de Godoy.
 
 ## Recursos utilizados:
 <p style="display:flex;">
@@ -14,7 +14,10 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
 <p style="display:flex;">
   <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
 
+## Tópicos
+  
 
+ 
 O objetivo dessa "colinha" é democratizar o acesso a esse conteúdo e ajudar os coleguinhas que estão com dúvida na matéria ;)
 
 **Compartilhe com quem precisa!**
