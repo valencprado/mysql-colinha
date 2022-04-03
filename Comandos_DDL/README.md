@@ -1,3 +1,5 @@
+# OS COMANDOS DDL 
+
 Vamos para os comandos DDL,  que criam e controlam os objetos do banco.
 
 ## 1. CREATE
