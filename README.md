@@ -20,11 +20,9 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
  - [Create Database: o início](./Create_Database/README.md)
  - [Criando tabelas - Comandos DDL (create, alter, drop)](./Comandos_DDL/README.md)
  - [Inserindo, alterando e excluindo dados de tabelas - Comandos DML](./Comandos_DML/README.md)
- - [Selecionando dados da tabela - Comandos DQL]
  - [Modelo Físico]
  - [Normalização de Dados]
- - [Funções e cláusulas do SQL]
- - [Juntando tabelinhas]
+
  
 O objetivo dessa "colinha" é democratizar o acesso a esse conteúdo e ajudar os coleguinhas que estão com dúvida na matéria ;)
 
