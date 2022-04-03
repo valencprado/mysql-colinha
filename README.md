@@ -13,7 +13,7 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
   
 ## Tópicos (na ordem certa!)
 
- - [SGBD]
+ - [SGBD](./SGBD/README.md)
  - [Tipos de Dados no MySQL]
  - [O SQL](./O_SQL/README.md)
  - [O MySQL](./O_MySQL/README.md) 
