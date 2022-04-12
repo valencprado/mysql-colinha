@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# BANCO DE DADOS - Uma colinha necessária.📝
+Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, criada nos anos 1970 pela IBM e utilizada em várias empresas de todo o planeta.
+![colinha_fundo](https://user-images.githubusercontent.com/85965282/152711729-60727fa8-ffbf-4b21-9136-611c197dc5fb.png)
+**Focado em MySQL.**
+> A fonte desses conteúdos são as aulas de banco de dados do curso técnico de Desenvolvimento de Sistemas da Etec Profº Basilides de Godoy.
 
-You can use the [editor on GitHub](https://github.com/valencprado/sql-colinha/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Recursos utilizados:
+<p style="display:flex;">
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion"/> 
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown"/>
+</p>
+  
+  
+## Tópicos (na ordem certa!)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ - [SGBD](./SGBD/README.md)
+ - [Tipos de Dados no MySQL]
+ - [O SQL](./O_SQL/README.md)
+ - [O MySQL](./O_MySQL/README.md) 
+ - [Create Database: o início](./Create_Database/README.md)
+ - [Criando tabelas - Comandos DDL (create, alter, drop)](./Comandos_DDL/README.md)
+ - [Inserindo, alterando e excluindo dados de tabelas - Comandos DML](./Comandos_DML/README.md)
+ - [Selecionando dados de tabelas - Comandos DQL (parte 1)](./Comandos_DQL_1/README.md)
+ - [Selecionando dados de tabelas - Comandos DQL (parte 2)](./Comandos_DQL_2/README.md)
+ - [Selecionando dados de tabelas - Comandos DQL (parte 3)](./Comandos_DQL_3/README.md)
+ - [Selecionando dados de tabelas - Comandos DQL (parte 4)](./Comandos_DQL_4/README.md)
+ - [Selecionando dados de tabelas - Comandos DQL (parte 5)](./Comandos_DQL_5/README.md)
+ - [Modelo Físico]
+ - [Normalização de Dados]
 
-### Markdown
+ 
+O objetivo dessa "colinha" é democratizar o acesso a esse conteúdo e ajudar os coleguinhas que estão com dúvida na matéria ;)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Compartilhe com quem precisa!**
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/valencprado/sql-colinha/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*Feito com carinho por Valenn*
