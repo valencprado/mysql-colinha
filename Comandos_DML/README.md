@@ -66,6 +66,12 @@ delete from alune where codigo = 2;
 # deletando tudo
 delete from alune;
 ```
+## TRUNCATE
+O comando **truncate** limpa os dados de uma tabela. Assim, fica mais fácil de deletar todos os campos de uma tabela. 
+
+```sql
+truncate table alune;
+```
 
 
 
