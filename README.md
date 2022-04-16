@@ -27,6 +27,7 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
  - [Selecionando dados de tabelas - Comandos DQL (parte 5)](./Comandos_DQL_5/README.md)
  - [Modelo Físico]
  - [Normalização de Dados]
+ - [Triggers](Triggers/README.md)
 
  
 O objetivo dessa "colinha" é democratizar o acesso a esse conteúdo e ajudar os coleguinhas que estão com dúvida na matéria ;)
