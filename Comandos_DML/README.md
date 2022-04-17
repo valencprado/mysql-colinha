@@ -48,7 +48,7 @@ Nesse caso, na tabela filme, aquele que possui código 3 terá seu ano atualizad
 
 
 
-## DELETE
+## 3. DELETE
 
 O comando **delete** é usado para apagar algum dado.
 
@@ -66,7 +66,7 @@ delete from alune where codigo = 2;
 # deletando tudo
 delete from alune;
 ```
-## TRUNCATE
+## 4. TRUNCATE
 O comando **truncate** limpa os dados de uma tabela. Assim, fica mais fácil de deletar todos os campos de uma tabela. 
 
 ```sql
