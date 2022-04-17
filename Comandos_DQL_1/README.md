@@ -25,25 +25,53 @@ Algumas funções são utilizadas para alterar visualmente os selects, numa esp�
 
 ### Operadores
 Na clausula **WHERE**, há algumas especificações que podem ser feitas.
-- **IN**: valores de uma lista
+- **IN**
 ```sql
+# o código deve estar
 select codigo from tb_aluno where codigo in (1,4);
 ```
 - **NOT**:
 ```sql
-select codigo from tb_aluno where codigo in (1,4);
+# o código NÃO deve estar
+select codigo from tb_aluno where codigo not in (1,4);
 ```
-- **BETWEEN**: entre valores
+- **BETWEEN**
 ```sql
+# vai selecionar entre 1 e 3
+select codigo from tb_aluno where codigo between "1" and "3";
 ```
-- **LIKE**: espécie de pesquisa que utiliza % no começo, meio ou fim, dependendo do contexto
+- **LIKE**
 ```sql
+# começa com F
+select nome from tb_aluno like "F%"; 
+# ou
+# termina com F
+select nome from tb_aluno like "%F"; 
+# ou ainda
+# possui F no meio
+select nome from tb_aluno like "%F%"; 
 ```
-- **">"**, **"<"**, **">="** e **"<="**: maior que, menor que, maior ou igual a, menor ou igual a
+- **">"**, **"<"**, **">="** e **"<="**
 ```sql
+# só vai mostrar se:
+# for MAIOR que 6:
+select codigo from tb_aluno where codigo > 6; 
+# for MENOR que 6:
+select codigo from tb_aluno where codigo < 6; 
+# for menor OU igual a 6:
+select codigo from tb_aluno where codigo <= 6; 
+# for maior OU igual a 6:
+select codigo from tb_aluno where codigo >= 6; 
 ```
-- **and**, **not** e **in**: 
+- **and**, **not** e **in**
 ```sql
+# duas condições:
+select codigo from tb_aluno where codigo = 4 and nota = 10; 
+# uma ou a outra:
+select codigo from tb_aluno where codigo = 4 or nota = 10; 
+# inverte a lógica:
+select codigo from tb_aluno where codigo = 4 and not nota = 10; 
+
 ```
 ## AS
 O **AS** serve para dar apelidos (nomes temporários) a campos ou tabelas. Com os apelidos, um join pode se tornar mais fácil ou intuitivo. 
