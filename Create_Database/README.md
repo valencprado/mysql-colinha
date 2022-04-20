@@ -1,11 +1,11 @@
-# Create Database: o início
+# Create Database: o inÃ­cio
 
-Criar um banco de dados é o começo do aprendizado e de muitos projetos!
+Criar um banco de dados Ã© o comeÃ§o do aprendizado e de muitos projetos!
 
-O comando para criar um banco de dados é:
+O comando para criar um banco de dados Ã©:
 
 ```sql
-CREATE DATABASE nome_banco
+CREATE DATABASE nome_banco;
 ```
 
-Nada muito difícil, mas é o início de qualquer banco de dados.
+Nada muito difÃ­cil, mas Ã© o inÃ­cio de qualquer banco de dados.
