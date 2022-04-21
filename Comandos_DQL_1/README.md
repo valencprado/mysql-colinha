@@ -27,49 +27,49 @@ Algumas funções são utilizadas para alterar visualmente os selects, numa esp�
 Na clausula **WHERE**, há algumas especificações que podem ser feitas.
 - **IN**
 ```sql
-# o código deve estar
+-- o código deve estar
 select codigo from tb_aluno where codigo in (1,4);
 ```
 - **NOT**:
 ```sql
-# o código NÃO deve estar
+-- o código NÃO deve estar
 select codigo from tb_aluno where codigo not in (1,4);
 ```
 - **BETWEEN**
 ```sql
-# vai selecionar entre 1 e 3
+-- vai selecionar entre 1 e 3
 select codigo from tb_aluno where codigo between "1" and "3";
 ```
 - **LIKE**
 ```sql
-# começa com F
+-- começa com F
 select nome from tb_aluno like "F%"; 
-# ou
-# termina com F
+-- ou
+-- termina com F
 select nome from tb_aluno like "%F"; 
-# ou ainda
-# possui F no meio
+-- ou ainda
+-- possui F no meio
 select nome from tb_aluno like "%F%"; 
 ```
 - **">"**, **"<"**, **">="** e **"<="**
 ```sql
-# só vai mostrar se:
-# for MAIOR que 6:
+-- só vai mostrar se:
+-- for MAIOR que 6:
 select codigo from tb_aluno where codigo > 6; 
-# for MENOR que 6:
+-- for MENOR que 6:
 select codigo from tb_aluno where codigo < 6; 
-# for menor OU igual a 6:
+-- for menor OU igual a 6:
 select codigo from tb_aluno where codigo <= 6; 
-# for maior OU igual a 6:
+-- for maior OU igual a 6:
 select codigo from tb_aluno where codigo >= 6; 
 ```
 - **and**, **not** e **in**
 ```sql
-# duas condições:
+-- duas condições:
 select codigo from tb_aluno where codigo = 4 and nota = 10; 
-# uma ou a outra:
+-- uma ou a outra:
 select codigo from tb_aluno where codigo = 4 or nota = 10; 
-# inverte a lógica:
+-- inverte a lógica:
 select codigo from tb_aluno where codigo = 4 and not nota = 10; 
 
 ```
@@ -77,9 +77,9 @@ select codigo from tb_aluno where codigo = 4 and not nota = 10;
 O **AS** serve para dar apelidos (nomes temporários) a campos ou tabelas. Com os apelidos, um join pode se tornar mais fácil ou intuitivo. 
 
 ```sql
-# coluna
+-- coluna
 select nome_aluno as aluno from tb_aluno; 
-# tabela
+-- tabela
 Select t1.nome_car t1, t1.vlhora_car
 from cargo t1
 
