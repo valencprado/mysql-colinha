@@ -15,3 +15,4 @@ São os softwares que gerenciam um banco de dados. Existem 4 modelos de SGBD, se
 2. Relações de integridade do banco são definidas em uma sub-linguagem de dados
 2. A linguagem utilizada para manipular dados deve manter a aplicação inalterada com os dados centralizados ou distribuídos fisicamente
 2. Linguagem de baixo nível não pode ignorar regras de integridade de linguagens de alto nível.
+[Voltar ao início](./README.md)

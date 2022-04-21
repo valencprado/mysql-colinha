@@ -72,6 +72,7 @@ O comando **truncate** limpa os dados de uma tabela. Assim, fica mais fácil de 
 ```sql
 truncate table alune;
 ```
+[Voltar ao início](./README.md)
 
 
 

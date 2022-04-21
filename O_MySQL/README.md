@@ -8,3 +8,4 @@ O MySQL não é um **sistema de gerenciamento de banco de dados (SGBD)** que usa
 
 Para trabalhar com o banco de dados de forma mais visual, o MySQL Workbench é a ferramenta para tal. Já vem instalado com o MySQL.
 
+[Voltar ao início](./README.md)
