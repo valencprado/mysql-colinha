@@ -61,9 +61,9 @@ delete from nome_tabela where algo;
 Assim como o comando anterior, é necessário especificar qual dado será alterado por meio de uma condição, como o código, por exemplo. Ao tirar essa condição, é possível alterar todos os dados de uma tabela.
 
 ```sql
-# deletando dado específico
+-- deletando dado específico
 delete from alune where codigo = 2;
-# deletando tudo
+-- deletando tudo
 delete from alune;
 ```
 ## 4. TRUNCATE TABLE
