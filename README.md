@@ -2,7 +2,12 @@
 Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, criada nos anos 1970 pela IBM e utilizada em várias empresas de todo o planeta.
 ![colinha_fundo](https://user-images.githubusercontent.com/85965282/152711729-60727fa8-ffbf-4b21-9136-611c197dc5fb.png)
 **Focado em MySQL.**
-> A fonte desses conteúdos são as aulas de banco de dados do curso técnico de Desenvolvimento de Sistemas da Etec Profº Basilides de Godoy.
+> A fonte desses conteúdos são as aulas de banco de dados do curso técnico de Desenvolvimento de Sistemas da Etec Profº Basilides de Godoy. Também foram vistos os conteúdos do curso de MySQL do Curso em Vídeo e os artigos do curso de MySQL da Bóson Treinamentos, presente na Udemy (os artigos são disponibilizados gratuitamente no site da Bóson). 
+> 
+> [Curso MySQL do Curso em Vídeo (Youtube).](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
+> [Curso MySQL do Curso em Vídeo (Site).](https://www.cursoemvideo.com/curso/mysql/)
+> [Artigos da Bóson Treinamentos.](http://www.bosontreinamentos.com.br/curso-completo-de-mysql/)
+
 
 ## Recursos utilizados:
 <p style="display:flex;">
