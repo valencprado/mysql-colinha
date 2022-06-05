@@ -10,6 +10,10 @@ DQL é a abreviação de *"Data Query Language"*, que significa "Linguagem de Co
 > OBS: Todo select possui **FROM**, pois ele especifica em qual tabela acontecerá o select. 
 
 
+
+> OUTRA OBS: Alguns autores de livros colocam o comando `SELECT` como parte do DML *(Data Manipulation Language)*, mas, por aqui, vamos colocá-lo em DQL, por fazer mais sentido com a sua função de fato.
+
+
 ## WHERE
 Especifica a condição do select. 
 Exemplo:
