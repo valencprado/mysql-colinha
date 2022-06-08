@@ -2,9 +2,9 @@
 DQL é a abreviação de *"Data Query Language"*, que significa "Linguagem de Consulta de Dados". Por meio dela, é possível consultar os dados da tabela e seu principal (e único) comando é o **SELECT**. Porém, selecionar dados é complexo. Dependendo das necessidades da situação, é possível fazer essa seleção de inúmeras maneiras. Com isso, aqui na colinha, o tópico está dividido em cinco partes:
 
 1. **WHERE**, **AS**, Funções e Operadores
-2. Os **JOINS** (inner, left, right)
-3. **ORDER BY**, **GROUP BY** e **HAVING**
-4. Funções de Agregação
+2. **ORDER BY**, **GROUP BY** e **HAVING**
+3. Funções de Agregação
+4. Os **JOINS** (inner, left, right)
 5. **distinct**, **union** e criar **views**
 
 > OBS: Todo select possui **FROM**, pois ele especifica em qual tabela acontecerá o select. 
@@ -51,11 +51,17 @@ select nome from tb_aluno like "F%";
 -- ou
 -- termina com F
 select nome from tb_aluno like "%F"; 
--- ou ainda
--- possui F no meio
-select nome from tb_aluno like "%F%"; 
+
+-- possui F no meio ou em qualquer lugar
+select nome from tb_aluno like "%F%";
+
+-- começa com F e termina com a
+select nome from tb_aluno like "F%a";
+
+-- tem que ter algo depois do A
+select nome from tb_aluno like "A_";
 ```
-- **">"**, **"<"**, **">="** e **"<="**
+- **">"**, **"<"**, **">="**, **!=**  e **"<="**
 ```sql
 -- só vai mostrar se:
 -- for MAIOR que 6:
@@ -66,6 +72,8 @@ select codigo from tb_aluno where codigo < 6;
 select codigo from tb_aluno where codigo <= 6; 
 -- for maior OU igual a 6:
 select codigo from tb_aluno where codigo >= 6; 
+-- for DIFERENTE de 6:
+select codigo from tb_aluno where codigo != 6;
 ```
 - **and**, **not** e **in**
 ```sql
