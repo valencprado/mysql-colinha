@@ -18,14 +18,14 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
   
 ## Tópicos (na ordem certa!)
 
- - [O SQL](./O_SQL/README.md)
- - [O MySQL](./O_MySQL/README.md) 
- - [SGBD](./SGBD/README.md)
+ - [O SQL](./sql.md)
+ - [O MySQL](./mysql.md) 
+ - [SGBD](./sgbd.md)
  - [Tipos de Dados no MySQL]
- - [Create Database: o início](./Create_Database/README.md)
- - [Criando tabelas - Comandos DDL (create, alter, drop)](./Comandos_DDL/README.md)
- - [Inserindo, alterando e excluindo dados de tabelas - Comandos DML](./Comandos_DML/README.md)
- - [Selecionando dados de tabelas - Comandos DQL (parte 1)](./Comandos_DQL_1/README.md)
+ - [Create Database: o início](./crate_database.md)
+ - [Criando tabelas - Comandos DDL (create, alter, drop)](./comandos_ddl.md)
+ - [Inserindo, alterando e excluindo dados de tabelas - Comandos DML](./comandos_dml.md)
+ - [Selecionando dados de tabelas - Comandos DQL (parte 1)](./Comandos_DQL_1/comandos_dql1.md)
  - [Selecionando dados de tabelas - Comandos DQL (parte 2)]
  - [Selecionando dados de tabelas - Comandos DQL (parte 3)]
  - [Selecionando dados de tabelas - Comandos DQL (parte 4)]
