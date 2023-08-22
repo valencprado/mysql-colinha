@@ -36,7 +36,8 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
 **Outros:**
  - [Normalização de Dados]
  - [Modelo Físico]
-
+- [Modelo Conceitual]
+- [Modelo Lógico]
  
 O objetivo dessa "colinha" é democratizar o acesso a esse conteúdo e ajudar os coleguinhas que estão com dúvida na matéria ;)
 
