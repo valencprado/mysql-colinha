@@ -40,4 +40,4 @@ Comandos com a finalidade de controlar transações. Exemplos: **BEGIN TRANSACTI
 *Data Control Language (Linguagem de Controle de Dados)*
 
 Comandos Responsáveis por controlar parte da segurança do banco de dados. Exemplos? **GRANT, REVOKE, DENY.**
-[Voltar ao início](./README.md)
+[Voltar ao início](../README.md)

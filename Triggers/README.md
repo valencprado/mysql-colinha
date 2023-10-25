@@ -1,2 +1,2 @@
 # TRIGGERS
-[Voltar ao início](./README.md)
+[Voltar ao início](../README.md)

@@ -107,5 +107,5 @@ Esses últimos dois comandos servem especificamente para visualizar ou exibir a 
   -- exibir o(s) banco(s) de dados
   show databases;
   ```
-[Voltar ao início](./README.md)
+[Voltar ao início](../README.md)
   
