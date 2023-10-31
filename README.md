@@ -22,17 +22,20 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
 ## Tópicos (na ordem certa!)
 
 ### Capítulo 1: Conhecimentos iniciais
+
  - [O SQL](./O_SQL/README.md)
  - [O MySQL](./O_MySQL/README.md) 
  - [SGBD](./SGBD/README.md)
 
  ### Capítulo 2: modelos e normalização
+
 - [Modelo Conceitual]
 - [Modelo Lógico]
-- [Normalização de Dados]
+- [Normalização de Dados](./Normalizacao/README.md)
 - [Modelo Físico]
 
  ### Capítulo 3: mão na massa! Comandos SQL
+
  - [Tipos de Dados no MySQL]
  - [Create Database: o início](./Create_Database/README.md)
  - [Criando tabelas - Comandos DDL (create, alter, drop)](./Comandos_DDL/README.md)
