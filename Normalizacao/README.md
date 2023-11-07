@@ -13,7 +13,47 @@ A parte assustadora dessa matéria é seguir corretamente a ordem das Normas, n�
 > Essa página ainda está em construção! 🚧🚧
 ## 1FN: dados indivisíveis
 
+Na primeira parte da normalização, a ideia é um tanto quanto simples: tem algum atributo multivalorado? Pois dê tchau a ele!
+
+Falando sério agora, a ideia é que cada valor da tupla deve ser identificável pela chave primária. Por exemplo, observe a tabela abaixo:
+
+| ID          | Comida      | Temperos       |
+| ----------- | ----------- |-------         |
+| 1           | Coxinha     | Sal, pimenta   |
+| 2           | Pastel      | Sal, manjericão|
+
+
+Essa tabela é, no olhar da primeira forma normal, um **CRIME**. Existe mais de um dado dentro da parte de temperos e isso pode corromper a base de dados. Como lidar com esses múltiplos valores? A regra é clara: **um valor para representar um grupo de informações**.
+
+Mas tudo tem uma solução! Para eliminar campos multivalorados, a principal solução é criar uma nova tabela ou coluna, a depender do caso. Por exemplo:
+
+Comidas
+
+| ID          | Comida      |
+| ----------- | ----------- |
+| 1           | Coxinha     |
+| 2           | Pastel      |
+
+Temperos
+
+| ID          | Tempero     |
+| ----------- | ----------- |
+| 1           | Sal         |
+| 2           | Pimenta     |
+| 3           | Manjericão  |
+
+ComidasTemperadas
+
+| ID          | ID_comida | ID_tempero |
+| ----------- | --------- | ---------  |
+| 1           | 1         | 1          |
+| 2           | 1         | 2          |
+
+Agora, temos uma tabela que faz a junção das comidas com os temperos, criando a tabela de ComidasTemperadas. O importante da 1FN é desmembrar campos que recebem múltiplos valores de forma que cada valor desses possa ser atrelado de fato a uma tupla. 
+
 ## 2FN: sem dependências não funcionais
+
+
 
 ## 3FN: sem dependências transitivas
 
