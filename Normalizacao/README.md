@@ -5,7 +5,7 @@ A normalização de dados é uma forma de "refinar" as tabelas antes de elas ire
 ## Formas normais: Quais são?
 
 1. 1FN: cada dado é atômico e devem ser indivisíveis
-2. 2FN: remoção das dependências não funcionais
+2. 2FN: remoção das dependências parciais
 3. 3FN: remoção das dependências transitivas
 
 A parte assustadora dessa matéria é seguir corretamente a ordem das Normas, não pulando nem um passo e, principalmente, sem esquecer de deixar tudo totalmente preparado para a normalização seguinte.
@@ -51,7 +51,19 @@ ComidasTemperadas
 
 Agora, temos uma tabela que faz a junção das comidas com os temperos, criando a tabela de ComidasTemperadas. O importante da 1FN é desmembrar campos que recebem múltiplos valores de forma que cada valor desses possa ser atrelado de fato a uma tupla. 
 
-## 2FN: sem dependências não funcionais
+## 2FN: sem dependências parciais
+
+Depois da primeira forma, as tabelas já estão prontinhas para serem criadas! Só que não rs. É importante procurar agora as **dependências parciais**. São as colunas que não dependem da chave primária, afinal, o que não é chave precisa ser dependente da primary key. Se não for, aí teremos que fazer uma limpeza. Por exemplo, observe essa tabela.
+
+
+Pacientes(Id, Nome, IdEndereco, NomeConvenio, IdConvenio, MensalidadeConvenio)
+
+Agora, você me responde: convênio tem alguma a ver com paciente? Até que tem. Mas todas essas colunas? Definitivamente não. Elas não dependem do identificador do paciente. Desse jeito, a tabela fica recheada de informações que podem se tornar confusas em algum momento crítico. Existem múltiplos valores de convênio para alguns pacientes. Estranho, não? Para resolver, o passo a passo é:
+
+1.  Fazer a 1FN
+2.  Identificar as não-chaves
+3. "essa não-chave depende total ou parcialmente da chave?"
+4.  criar uma tabela ligando a tabela anterior com uma nova tabela com os valores dependentes parciais
 
 
 
