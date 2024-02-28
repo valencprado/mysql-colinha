@@ -88,7 +88,11 @@ select codigo from tb_aluno where codigo = 4 and not nota = 10;
 ## AS
 O **AS** serve para dar apelidos (nomes temporários) a campos ou tabelas. Com os apelidos, um join pode se tornar mais fácil ou intuitivo. 
 
+
 ```sql
+
+-- uso com funções de agregação (presentes no Comandos DQL parte 3)
+SELECT AVG(nota) as media_total FROM provas;
 -- coluna
 select nome_aluno as aluno from tb_aluno; 
 -- tabela
