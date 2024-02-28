@@ -21,18 +21,21 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
   
 ## Tópicos (na ordem certa!)
 
+
 ### Capítulo 1: Conhecimentos iniciais
 
  - [O SQL](./O_SQL/README.md)
  - [O MySQL](./O_MySQL/README.md) 
  - [SGBD](./SGBD/README.md)
 
+
  ### Capítulo 2: modelos e normalização
 
-- [Modelo Conceitual]
-- [Modelo Lógico]
+- [Modelo Conceitual](./Modelo_Conceitual/Modelo_Conceitual.md)
+- [Modelo Lógico](./Modelo_Logico/Modelo_Logico.md)
 - [Normalização de Dados](./Normalizacao/README.md)
-- [Modelo Físico]
+- [Modelo Físico](./Modelo_Fisico/README.md)
+
 
  ### Capítulo 3: mão na massa! Comandos SQL
 
@@ -44,7 +47,8 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
  - [Selecionando dados de tabelas - Comandos DQL (parte 2)]
  - [Selecionando dados de tabelas - Comandos DQL (parte 3)]
  - [Selecionando dados de tabelas - Comandos DQL (parte 4)]
- - [Selecionando dados de tabelas - Comandos DQL (parte 5)] - [Stored Procedures]
+ - [Selecionando dados de tabelas - Comandos DQL (parte 5)]
+ - [Stored Procedures]
  - [Triggers]
 
 **Outros:**
