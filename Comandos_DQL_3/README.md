@@ -2,7 +2,9 @@
 
 As funções de agregação tem o objetivo de realizar cálculos aritméticos e operações gerais com as tuplas das tabelas. A operação ocorre em uma coluna específica com todos os registros.
 
-A sintaxe geral de todas é: 
+Essas funções são utilizadas juntamente ao SELECT, dando informações que não conseguiríamos ter somente olhando a tabela ou que até seria possível, mas daria muito mais trabalho. Por isso, nada mais justo do que aproveitar o que o SQL nos oferece.
+
+A sintaxe geral de todas as funções é: 
 ```sql
 NOME_FUNCAO(nome_coluna)
 ```
