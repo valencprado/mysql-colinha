@@ -77,7 +77,7 @@ select codigo from tb_aluno where codigo >= 6;
 -- for DIFERENTE de 6:
 select codigo from tb_aluno where codigo != 6;
 ```
-- **and**, **not** e **in**
+- **and** e **not** 
 
 ```sql
 -- duas condições:
