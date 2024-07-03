@@ -45,6 +45,7 @@ select codigo from tb_aluno where codigo not in (1,4);
 select codigo from tb_aluno where codigo between "1" and "3";
 ```
 - **LIKE**
+
 ```sql
 -- começa com F
 select nome from tb_aluno like "F%"; 
@@ -61,6 +62,7 @@ select nome from tb_aluno like "F%a";
 -- tem que ter algo depois do A
 select nome from tb_aluno like "A_";
 ```
+
 - **">"**, **"<"**, **">="**, **!=**  e **"<="**
 ```sql
 -- só vai mostrar se:
@@ -76,6 +78,7 @@ select codigo from tb_aluno where codigo >= 6;
 select codigo from tb_aluno where codigo != 6;
 ```
 - **and**, **not** e **in**
+
 ```sql
 -- duas condições:
 select codigo from tb_aluno where codigo = 4 and nota = 10; 
