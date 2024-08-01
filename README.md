@@ -48,7 +48,7 @@ Aqui estão reunidos alguns dos conceitos da linguagem de banco de dados SQL, cr
  - [Selecionando dados de tabelas - Comandos DQL (parte 3)](./Comandos_DQL_3/README.md)
  - [Selecionando dados de tabelas - Comandos DQL (parte 4)]
  - [Selecionando dados de tabelas - Comandos DQL (parte 5)]
- - [Stored Procedures]
+ - [Stored Procedures](./Stored_Procedures/README.md)
  - [Triggers]
 
 **Outros:**
